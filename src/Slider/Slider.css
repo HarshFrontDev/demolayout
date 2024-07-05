@@ -1,0 +1,140 @@
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(51, 51, 51, 0.79);
+}
+
+.hero-slider {
+  width: calc(100% - 4rem); 
+  margin: 8rem 2rem; 
+  height: calc(100vh - 16rem); 
+  overflow: hidden;
+}
+
+.hero-slider .carousel-cell {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-slider .carousel-cell .inner {
+  position: relative;
+  top: 55%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-slider .carousel-cell .inner .title {
+  font-family: 'Noto Sans', serif;
+  font-size: 5rem;
+  font-style: italic;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.hero-slider .carousel-cell .inner .title span {
+  color: #25D366;
+  font-weight: bold;
+}
+
+.hero-slider .carousel-cell .inner .btn {
+  padding: 17px 34px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+.hero-slider .carousel-cell .inner .btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.hero-slider .flickity-prev-next-button {
+  width: 80px;
+  height: 80px;
+  background: transparent;
+}
+
+.hero-slider .flickity-prev-next-button:hover {
+  background: transparent;
+}
+
+.hero-slider .flickity-prev-next-button .arrow {
+  fill: white;
+}
+
+.hero-slider .flickity-page-dots {
+  bottom: 30px;
+}
+
+.hero-slider .flickity-page-dots .dot {
+  width: 30px;
+  height: 4px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 1);
+  border: 0 solid white;
+  border-radius: 0;
+}
+
+.hero-slider .flickity-page-dots .dot.is-selected {
+  background: var(--color-secondary1) !important;
+  border: 1px solid var(--color-secondary1);
+}
+
+.btnnn-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btnnn-wrapper .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnnn-wrapper .btn i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.btnnn-wrapper .btn.consult {
+  background: #ffffff;
+  color: #333333;
+}
+
+.btnnn-wrapper .btn.video {
+  background: transparent;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.flickity-page-dot.is-selected {
+  background: rgba(255, 255, 255, 1);
+}
+
+.flickity-page-dot {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.inner .title-content {
+  color: #fff;
+  font-family: "Noto Sans";
+  font-size: 20px;
+  line-height: 1.6;
+}

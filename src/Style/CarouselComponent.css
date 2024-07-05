@@ -1,0 +1,23 @@
+#carouselExampleIndicators {
+margin: 8rem 2rem 0rem 2rem;
+}
+.carousel {
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    height: 25rem !important;
+    object-fit: fill;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black; /* Add a white background to make the icons visible */
+    border-radius: 50%; /* Optional: make the icons round */
+    padding: 20px; /* Add some padding */
+  }
+  
