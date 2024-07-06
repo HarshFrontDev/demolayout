@@ -7,7 +7,7 @@ const BannerForm = () => {
     <div className="containerm my-4">
       <div className="row align-items-center">
         <div className="col-md-8 mb-4 mb-md-0">
-          <img src={`${process.env.PUBLIC_URL}/images/heroimg.jpg`} alt="Banner" className="img-fluid rounded" />
+        <img src="/images/heroimg.jpg" alt="Banner" className="img-fluid rounded" />
         </div>
         <div className="col-md-4">
           <form className="row g-3">
